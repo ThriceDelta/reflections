@@ -10,3 +10,6 @@ If you wanted to add an experimental feature to an application without affecting
 How do the diagrams help you visualise the branch structure?
 Without a diagram to refer to, complex tree structures would become unmanageable. If you had many branches coming off the master in different commits then how would you find unreachable commits? Diagrams are invaluable at giving you and anybody collaborating with you a visual of the project being worked on and helps everyone to know exactly where they are and what they are working on (or what stage they are working on).
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+When two branches are merged together, the changes made on both branches are consolidated into one branch that takes all the additions and subtractions in the files where possible. Git can use the parent commits of each branch to determine what has been changed in which files and combine them into a single branch. It is represented in the diagram to show the merged branches converging into one to show which branches where merged. All the commits from both branches still remain and are now ordered as per their timestamp.
+
