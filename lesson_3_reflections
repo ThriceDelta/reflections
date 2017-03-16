@@ -17,3 +17,5 @@ This is particularly useful when you have to work on the repo offline. Once you 
 How would you collaborate without Git or GitHub? What would be easier, and what would be harder?
 We would probably have to save individual versions of files, zip them, and email them to our other collaborators along with a readme.txt file. The learning curve would be easier as we all know how to perform the previous tasks, however, you lose so much control. This method would be time-consuming, error-prone, and potentially costly.
 
+When would you want to make changes in a seperate branch rather than directly in master? What benefits does each approach have?
+I would make changes in a seperate branch when the code I am adding is using the master code as a base that doesn't neccesarily needs changing itself. For example, when I'm trying out a new page/feature for a website, or new modes for a game. This method would prevent the main code from breaking while giving me the freedom to experiment with a safety-net.
