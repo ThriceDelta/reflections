@@ -1,3 +1,6 @@
 When would you want to use a remote repository rather than keeping all your work local?
 A remote repo is needed when you would like to show other people the projects progression, or allow them access to the files that are hosted on Github. Another reason would be to allow other collaborators of a project to access these files. There is, of course, the added bonus of that repo is now backed up.
 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+When there is more than one person working on a repo, you may not want Git automatically updating it because there could be conflicts against two different collaborators work. Suppose there are a lot of collaborators, they may be pushing their commits to Github which would be constantly updating on your local repo.
+
