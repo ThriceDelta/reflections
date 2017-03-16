@@ -4,3 +4,10 @@ A remote repo is needed when you would like to show other people the projects pr
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 When there is more than one person working on a repo, you may not want Git automatically updating it because there could be conflicts against two different collaborators work. Suppose there are a lot of collaborators, they may be pushing their commits to Github which would be constantly updating on your local repo.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks are used when you want to make changes to an existing repo that you do not have permission to change. Forks are similar to clones except they are done within the Github facility and "clone" the repo from someone elses repo into your own repo.
+Clones are where you can download the entire repo, including the commit history to a local machine. This is different from actually downloading the repo as this would not give you access to the commit history. When you clone a repo, you can push and pull any commits that have been made either on your local machine, or from a remote.
+Branches are the variations of the original files that are either the master (branch), or not yet merged with the master (either through intention or by convention of the repo originator).
+Forks should be used when you wish to clone someone elses repo because you do not want to alter the original repo, or you do not have permission to do so. Clones should be used when you wish to download a repo to your local machine and make changes from there, and to be committed once you have completed the work needed.
+Branches should be used when you would like to change the file/s without affecting the original file/s, for example, adding a new feature, like an image carousel, to an existing website.
+
