@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+A remote repo is needed when you would like to show other people the projects progression, or allow them access to the files that are hosted on Github. Another reason would be to allow other collaborators of a project to access these files. There is, of course, the added bonus of that repo is now backed up.
+
