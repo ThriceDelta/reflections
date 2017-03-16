@@ -14,3 +14,6 @@ Branches should be used when you would like to change the file/s without affecti
 What would be the benefit of having a copy of the last known state of the remote stored locally?
 This is particularly useful when you have to work on the repo offline. Once you have internet access again you can re-sync if there have been any other changes while you was away.
 
+How would you collaborate without Git or GitHub? What would be easier, and what would be harder?
+We would probably have to save individual versions of files, zip them, and email them to our other collaborators along with a readme.txt file. The learning curve would be easier as we all know how to perform the previous tasks, however, you lose so much control. This method would be time-consuming, error-prone, and potentially costly.
+
